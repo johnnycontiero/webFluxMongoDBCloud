@@ -9,7 +9,8 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.*;
 
-@Configuration
+// Anotação comentada pra não ter conflito de endpoints do controler
+//@Configuration
 public class PlayListRouter {
 	
 	@Bean

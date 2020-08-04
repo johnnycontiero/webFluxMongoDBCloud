@@ -12,7 +12,8 @@ import com.api.webFlux.services.PlayListService;
 import reactor.core.publisher.Mono;
 
 
-@Component
+//Anotação comentada pra não ter conflito de endpoints do controler
+//@Component
 public class PlayListHandler {
 
 	@Autowired
