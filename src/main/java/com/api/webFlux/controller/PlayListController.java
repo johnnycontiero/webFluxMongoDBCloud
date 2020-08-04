@@ -13,7 +13,8 @@ import com.api.webFlux.services.PlayListService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController
+// Anotação comentada pra não ter conflito de endpoints do router
+//@RestController
 public class PlayListController {
 	
 	@Autowired
